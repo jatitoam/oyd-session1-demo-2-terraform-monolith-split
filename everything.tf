@@ -18,10 +18,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  region = "us-east-1"
-}
-
 variable "environment" {}
 
 variable "project_name" {}
