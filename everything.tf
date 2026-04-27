@@ -9,15 +9,6 @@
 #
 # The instructor will split this live into the proper structure.
 
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
-}
-
 variable "environment" {}
 
 variable "project_name" {}
