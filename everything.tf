@@ -9,12 +9,6 @@
 #
 # The instructor will split this live into the proper structure.
 
-variable "environment" {}
-
-variable "project_name" {}
-
-variable "bucket_suffix" {}
-
 resource "aws_s3_bucket" "main" {
   bucket = "myapp-dev-uploads"
 
