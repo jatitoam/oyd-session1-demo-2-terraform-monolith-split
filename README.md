@@ -9,7 +9,11 @@ This repository serves as a demo to show how a big monolithic (but working) `eve
 - **outputs**: Output value definitions
 - **providers**: Provider configurations
 - **locals**: Local value definitions
-- **data sources**: Data source configurations
+- **data sources**: Data source configurations (not part of this demo)
 - **resources**: Resource definitions
 
 The goal is to demonstrate how a single monolithic file can be refactored into a more maintainable and organized structure.
+
+## Commits
+
+Check the commits of this repository to review the transformation of the original `everything.tf` file into multiple pieces
