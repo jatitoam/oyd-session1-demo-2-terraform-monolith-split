@@ -1,5 +1,4 @@
 resource "aws_s3_bucket" "main" {
-  bucket = "myapp-dev-uploads"
-
+  bucket = local.bucket_name
   tags = local.common_tags
 }
